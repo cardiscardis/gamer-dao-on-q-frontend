@@ -47,7 +47,8 @@ function Header ({ onMenuClick }: Props) {
                   src={logo}
                 />
                 <p className="header__logo-title text-h2">
-                  {t('DAO_DASHBOARD')}
+                  HiDAO
+                  {/* {t('DAO_DASHBOARD')} */}
                 </p>
               </Link>
             }

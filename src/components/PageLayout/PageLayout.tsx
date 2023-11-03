@@ -30,7 +30,7 @@ function PageLayout ({
   useEffect(() => {
     const documentTitle = title === 'Dashboard'
       ? 'DAO Dashboard'
-      : `${titleCase(title)} | DAO Dashboard`;
+      : 'HighDAO';// `${titleCase(title)} | DAO Dashboard`;
     document.title = documentTitle;
   }, [titleCase]);
 
